@@ -10,232 +10,214 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Shadows+Into+Light&family=Unbounded:wght@200..900&display=swap"
         rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
     <header>
-        <h1>Event Group</h1>
-    </header>
-    <div id="navegacion">
         <ul class="nav justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#inicio"><i class="fa-solid fa-house"></i></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#carrito"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a class="nav-link" href="#productos"><i class="fa-solid fa-cart-shopping"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contacto"><i class="fa-solid fa-circle-user"></i></a>
             </li>
         </ul>
+
+    </header>
+    <div class="title">
+        <h1>Event Group</h1>
     </div>
-    <section id="inicio">
-        <h1>
-            <P>Solo pensa en correr! <i class="fa-sharp fa-solid fa-person-running"></i></P>
-        </h1>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/foto2.avif " class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/foto1.png" class="d-block w-100 h-10" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="img/foto3.jpg" class="d-block w-100" alt="...">
-                </div>
+   <section id="inicio">
+    <h1>
+        <p>Solo pensa en correr! <i class="fa-sharp fa-solid fa-person-running"></i></p>
+    </h1>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/foto2.avif" class="d-block w-100" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-        <h3 id="titulo">Nosotros en Event Group</h3>
-        <p id="texto">No podemos ni queremos evitar el cansancio físico de los deportistas, nuestro propósito
-            fundamental es
-            recompensarlo. Para ello decidimos imaginar, diseñar y producir lo necesario para darle mayor calidad
-            material y deportiva a toda competencia, y así convertirla en un prestigioso evento en el que todos
-            sientan el honor de participar, y en el que cada centímetro de un grandioso podio otorgue la cumbre que
-            merecen los mejores.
-            Nuestra meta no es alcanzar el arco de llegada, sino construirlo de acuerdo a la gloria que significa
-            atravesarlo.
-            Pretendemos prestar un servicio integral de equipamiento deportivo que acompañe el crecimiento del
-            atletismo y otros deportes, nutriéndolos con la alta tecnología y la fina artesanía de nuestros
-            talleres. Atendiendo las necesidades de los diferentes participantes, y observando las más rigurosas
-            pautas deportivas.
-            Nuestra meta no es alcanzar el arco de llegada, sino construirlo de acuerdo a la gloria que significa
-            atravesarlo.
-            Pretendemos prestar un servicio integral de equipamiento deportivo que acompañe el crecimiento del atletismo
-            y otros deportes, nutriéndolos con la alta tecnología y la fina artesanía de nuestros talleres. Atendiendo
-            las necesidades de los diferentes participantes, y observando las más rigurosas pautas deportivas.
-            Event Gruop ha tomado la delantera con el objetivo de hacerse cargo de lo que faltaba o era preciso
-            mejorar. Somos la vanguardia que piensa y crea para que los deportistas nunca se cansen de competir.
-            ¡Solo pensá en correr!
-        </p>
-    </section>
-    <section id="carrito">
-        <h2 id="fechas">Proximas carreras </h2>
-
-        <div class="card-group">
-            <div class="card">
-                <img src="img/fotoHallo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Ya llega Halloween Run: ¡Corré…!</h5>
-                    <p class="card-text">¡ Octava edición de la carrera temática más esperada ! Halloween Run 2024 es la
-                        octava edición de esta increíble carrera temática, donde miles de corredores participan, con un
-                        gran despliegue de actores y escenografías en una desafiante y oscura noche. Enfrenta tus miedos
-                        en un emocionante recorrido ideal para correr con amigos.Halloween Es una de las noches más
-                        importantes para los anglosajones cuyos niños salen a las calles disfrazados de fantasmas,
-                        duendes y demonios, para pedir dulces y golosinas a sus vecinos.
-                    </p>
-                    <br><br>
-                    <button class="comprar" data-carrera="Halloween">Inscribirme</button>
-                </div>
+            <div class="carousel-item">
+                <img src="img/foto1.png" class="d-block w-100 h-10" alt="...">
             </div>
-            <div class="card">
-                <img src="img/fotoNocturna.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Nocturna Bs As</h5>
-                    <p class="card-text">Viví la experiencia de la 13va edición de la mítica Nocturna Buenos Aires. La
-                        carrera nocturna de 8 kilómetros competitivos que se transformó en uno de los eventos más
-                        esperados del año y de mayor concurrencia del calendario del running argentino. Este año será
-                        Rock Edition. Preparate para correr al ritmo de las mejores bandas de rock en vivo, con
-                        escenarios a lo largo del recorrido que te llenarán de energía y motivación. Disfrutá de una
-                        noche única donde la música y el deporte se unen para crear una experiencia inolvidable. ¡Sé uno
-                        de los miles de corredores que vivirán esta magnífica noche llena de luces, música y emociones!
-                    </p>
-                    <button class="comprar" data-carrera="Halloween">Inscribirme</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="img/SanSilvestre.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">San Silvestre</h5>
-                    <p class="card-text">¡Esta es la última del año! Única e inolvidable 14va edición del clásico
-                        porteño, San Silvestre Buenos Aires larga el 31 de Diciembre en el centro de la Ciudad de Buenos
-                        Aires.
-                        La gran corrida San Silvestre Buenos Aires, cumple 14 años y lleva cada una de las emociones a
-                        su máxima expresión, donde los corredores de este año vivirán una nueva e inolvidable última
-                        carrera del 2024.
-                        Este año la internacionalmente reconocida artista plástica Marta Inés Minujín, creó la imagen de
-                        «El arte en movimiento«, basado en un Soliloquio de emociones encontrada, y utilizando técnica
-                        mixta, sobre tela de colchón pintada a mano, cortada y encolada..</p>
-                    <button class="comprar" type="submit" data-carrera="Halloween">Inscribirme</button>
-                </div>
-
+            <div class="carousel-item">
+                <img src="img/foto3.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
-    </section>
-    <section id="contacto" class="py-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
-                    <h3 class="mb-3">Asistencia al Corredor</h3>
-                    <p class="mb-4">¡Solo pensá en correr!</p>
-
-                    <ul>
-                        <li><strong>Email:</strong> info@eventgroup.com.ar</li>
-                        <li><strong>Clasificación:</strong> clasificacion@eventgroup.com.ar</li>
-                        <li><strong>Teléfono:</strong> +54 11 4686-2070</li>
-                        <li><strong>Horario:</strong> Lunes a Viernes de 09:00hs a 17:00hs</li>
-                        <li><strong>Dirección:</strong> Eventroad 111, Buenos Aires</li>
-                    </ul>
-                </div>
-
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label">Ingresa tu mail</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleDataList" class="form-label">Elegi la que mas te gusta!</label>
-                            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                            <datalist id="datalistOptions">
-                              <option value="Halloween">
-                              <option value="Nocturna">
-                              <option value="SanSilvestre">
-                             
-                            </datalist>
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label">Contanos tu experiencia</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                required></textarea>
-                        </div>
-
-                        <button type="submit">Enviar</button>
-                    </form>
-                </div>
-            </div>
-          
-            <div id="grid">    
-                <div id="item1" class="item">
-                    <img src="img/fotoHallo.png" width="200px" height="160px" alt="">
-                    <i class="fa-solid fa-quote-right quote-icon"><br>Terrorifica!</i>
-                    <div class="estrellas">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                </div>
-                <div id="item2" class="item">
-                    <img src="img/fotoNocturna.png" width="200px" height="160px" alt="">
-                    <i class="fa-solid fa-quote-right quote-icon"><br>Noche magica</i>
-                    <div class="estrellas">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                </div>
-                <div id="item3" class="item">
-                    <img src="img/SanSilvestre.png" width="200px" height="160px" alt="">
-                    <i class="fa-solid fa-quote-right quote-icon"><br>La ultima</i>
-                    <div class="estrellas">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <h3 id="titulo">Nosotros en Event Group</h3>
+    <p class="marco">No podemos ni queremos evitar el cansancio físico de los deportistas, nuestro propósito
+        fundamental es recompensarlo. Para ello decidimos imaginar, diseñar y producir lo necesario para darle mayor calidad
+        material y deportiva a toda competencia, y así convertirla en un prestigioso evento en el que todos
+        sientan el honor de participar, y en el que cada centímetro de un grandioso podio otorgue la cumbre que
+        merecen los mejores.
+        Nuestra meta no es alcanzar el arco de llegada, sino construirlo de acuerdo a la gloria que significa
+        atravesarlo.
+        Pretendemos prestar un servicio integral de equipamiento deportivo que acompañe el crecimiento del
+        atletismo y otros deportes, nutriéndolos con la alta tecnología y la fina artesanía de nuestros
+        talleres. Atendiendo las necesidades de los diferentes participantes, y observando las más rigurosas
+        pautas deportivas.
+        Event Group ha tomado la delantera con el objetivo de hacerse cargo de lo que faltaba o era preciso
+        mejorar. Somos la vanguardia que piensa y crea para que los deportistas nunca se cansen de competir.
+        ¡Solo pensá en correr!
+    </p>
+</section>
+<section id="productos">
+    <div class="container mt-4 text-center">
+        <h3>Las más elegidas</h3>
+        <div class="row justify-content-center">
+            <div id="item1" class="col-md-4 item marco">
+                <img src="img/fotoHallo.png" class="img-fluid" alt="Foto Halloween">
+                <i class="fa-solid fa-quote-right quote-icon"></i>
+                <p>Terrorífica!</p>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
                 </div>
             </div>
-            
-            
+            <div id="item2" class="col-md-4 item marco">
+                <img src="img/fotoNocturna.png" class="img-fluid" alt="Foto Nocturna">
+                <i class="fa-solid fa-quote-right quote-icon"></i>
+                <p>Noche mágica</p>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div id="item3" class="col-md-4 item marco">
+                <img src="img/SanSilvestre.png" class="img-fluid" alt="Foto San Silvestre">
+                <i class="fa-solid fa-quote-right quote-icon"></i>
+                <p>La última</p>
+                <div class="estrellas">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" mt-4">
+            <h3 class="text-center">Catálogo de Productos</h3>
+            <div id="productos-container" class="container row justify-content-center">
+                
+                
+            </div>
+            <button id="prev-btn">Anterior</button>
+                <span id="page-info"></span>
+                <button id="next-btn">Siguiente</button>
+        </div>
+    </div>
+</section>
+
+<section id="carrito">
+    <div class="container mt-4">
+        <h2 class="mb-4">Carrito de Compras</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody id="carrito-items"> <!-- Aquí se cargarán los productos del carrito -->  
+            </tbody>
+        </table>
+        <div class="text-end mb-3">
+            <h4>Total: $<span id="total">0</span></h4>
+        </div>
+        <div class="d-flex justify-content-between">
+            <button id="limpiar-carrito" class="btn btn-success">Volver al Inicio</button>
+            <button id="finalizar-compra" class="btn btn-success">Finalizar Compra</button>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="container mt-4">
+    <h3>¡Déjanos un comentario!</h3>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form id="contactForm" class="marco">
+                    <div class="mb-3">
+                        <label for="emailInput" class="form-label">Ingresa tu mail</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="raceChoice" class="form-label">¡Elige la que más te gusta!</label>
+                        <input class="form-control" list="datalistOptions" id="raceChoice" placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                            <option value="Halloween">
+                            <option value="Nocturna">
+                            <option value="San Silvestre">
+                        </datalist>
+                    </div>
+                    <div class="mb-3">
+                        <label for="experienceTextarea" class="form-label">Cuéntanos tu experiencia</label>
+                        <textarea class="form-control" id="experienceTextarea" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Pie de página -->
+    <section id="footer" class="container text-center mt-4">
+        <h3>Asistencia al Corredor</h3>
+        <br><br>
+        <p>¡Solo pensá en correr!</p>
+        <div class="container mt-4">
+            <ul class="list-unstyled">
+                <li><strong>Email:</strong> info@eventgroup.com.ar</li>
+                <li><strong>Clasificación:</strong> clasificacion@eventgroup.com.ar</li>
+                <li><strong>Teléfono:</strong> +54 11 4686-2070</li>
+                <li><strong>Horario:</strong> Lunes a Viernes de 09:00hs a 17:00hs</li>
+                <li><strong>Dirección:</strong> Eventroad 111, Buenos Aires</li>
+            </ul>
+            <div class="mt-4">
+                <a href="#"><i class="fa-brands fa-facebook fa-2x redes-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2x redes-icons"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2x redes-icons"></i></a>
+            </div>
+            <div id="copyright"> © 2024 Copyright Romina Peleriti </div>
+        </div>
     </section>
 
-    <footer>
-        <div id="redes">
-
-            <a href="#" class="red"> <i class="fa-brands fa-facebook fa-2x"></i></a>
-            <a href="#" class="red"><i class="fa-brands fa-instagram fa-2x"></i></a>
-            <a href="#" class="red"><i class="fa-brands fa-youtube fa-2x"></i></a>
-        </div>
-        <div id="copyright">
-            © 2024 Copyright Romina Peleriti
-        </div>
-
-
-    </footer>
+    <script src="scrip.js"></script>
 
 </body>
 

@@ -3,26 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(21, 109, 105) !important;
 }
+
 header {
     height: 50px;
     background-color: aquamarine;
 }
+
 .nav-link i {
     color: black;
 }
-.red i{
+
+.red i {
     color: black;
 }
-#navegacion {
+
+.title {
     height: 50px;
     background-color: rgb(25, 224, 158);
 }
+
 .carousel-item {
     height: 400px;
 }
+
 h1,
 h2,
 h3 {
@@ -31,95 +38,126 @@ h3 {
     font-style: oblique;
     font-family: "Unbounded", sans-serif;
 }
+
 .carousel-item img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
+
 #inicio {
     margin: 20px;
 }
-#texto {
+
+.marco {
     border: rgb(25, 224, 158) solid 2px;
     padding: 5px;
     font-family: "Unbounded", sans-serif;
 }
-#carrito {
+
+#carreras {
     background-color: aquamarine !important;
 }
+
 #fechas {
     margin-top: 40px !important;
     padding-top: 40px !important;
 }
+
 footer {
     height: 80px !important;
 }
+
 #redes {
     margin-top: 20px !important;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
 #copyright {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px !important;
 }
+
 li {
     list-style-type: none
 }
+
 #contacto {
     background-color: rgb(25, 224, 158);
     border-radius: 8px !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
+.marco {
+    background-color:  rgb(25, 224, 158);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
 button {
-    background-color: rgb(21, 109, 105);
+    background-color: rgb(21, 109, 105)!important;
     border-radius: 8px !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 4px !important;
+
 }
-.card-body {
-    background-color: aquamarine;
-}
+
 #titulo {
     margin-top: 20px !important;
 }
 
-              #grid {
-                margin-top: 40px !important;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-gap: 20px;
-                background-color: aquamarine;
-              }
-              #grid > div {
-                background-color: rgb(21, 109, 105);
-                border-radius: 4px;
-              }
-              .item {
-                display: flex;
-                flex-direction: column; /* Hace que los elementos hijos se coloquen en columna */
-                align-items: center; /* Centra los elementos hijos horizontalmente */
-              }
-              .quote-icon {
-                font-size: 20px; /* Ajusta el tamaño del ícono */
-                margin-top: 5px;
-              }
-              .estrellas {
-                margin-top: 10px;
-                color: yellow !important;
-                display: flex;
-                gap: 10px !important;
-              }
-              @media (max-width: 600px) {
-                #grid {
-                  grid-template-columns: 1fr; /* Una sola columna en pantallas pequeñas */
-                }
-                .estrellas {
-                  justify-content: flex-start;
-                }
-              }
-            
-            
+
+.quote-icon {
+    font-size: 20px;
+    /* Ajusta el tamaño del ícono */
+    margin-top: 5px;
+}
+
+.estrellas {
+    margin-top: 10px;
+    color: yellow !important;
+    display: flex;
+    gap: 10px !important;
+}
+
+@media (max-width: 600px) {
+    #grid {
+        grid-template-columns: 1fr;
+        /* Una sola columna en pantallas pequeñas */
+    }
+
+    .estrellas {
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer #redes ul {
+    padding: 0;
+}
+
+footer .redes-icons a {
+    margin: 0 10px;
+}
+
+
+
